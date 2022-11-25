@@ -1,5 +1,3 @@
-# lanchonete.v02
-
 # PROJETO - PAPER - UNIASSELVI
 ## Cadastro de Clientes - Lanchonete
 

@@ -1,0 +1,83 @@
+#fixa {
+    
+  position:sticky;
+  bottom: 1%;
+  margin: auto;
+  background: rgba(89, 245, 122);
+  height: 7%;
+  width: 25%;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#fixa img {
+  width: 20%;
+  height: 90%;
+}
+
+#fixa a .whats {
+  display: flex;
+  align-items: center;
+}
+
+#fixa a .whats span{
+  display: block;
+  font-weight: Arial;
+  color: #040305;
+  white-space: initial;
+  padding: 0%;
+  
+}
+
+.btn-whats {
+  animation-name: btn-whats;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes btn-whats {
+  from {
+    transform: translate3d(0, 0, 0);
+    filter: brightness(100%);
+  }
+  to {
+    transform: translate3d(0, -15px, 0);
+    filter: brightness(150%);
+  }
+}
+@media only screen and (max-width: 959px) {
+  span{
+      font-size: 19px;
+  }
+}
+
+/* Tamanho retrato do tablet para o padrão 960 (dispositivos e navegadores) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  span{
+      font-size: 19px;
+  }
+}
+
+/* 
+Todos os tamanhos de celular (dispositivos e navegador) */
+@media only screen and (max-width: 767px) {
+  span{
+      font-size: 15px;
+  }
+}
+
+/* Tamanho de paisagem móvel para tablet retrato (dispositivos e navegadores) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  span{
+      font-size: 14px;
+  }
+}
+
+/* Tamanho retrato móvel para tamanho paisagem móvel (dispositivos e navegadores) */
+@media only screen and (max-width: 479px) {
+  span{
+      font-size: 12px;
+  }
+}
